@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package user;
+
+
+service User{
+  rpc SMSCode( Phone ) returns ( Code ) {}
+}
+
+message Phone {
+    string phone = 2;
+}
+
+message Code {
+    string code = 1;
+}
+

@@ -1,0 +1,63 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;grpc_demo&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/menteslibres.net" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/mail" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/apis" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/tdd" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/model" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/templates" />
+      <root url="file://$PROJECT_DIR$/../../../honnef.co" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/oauth" />
+      <root url="file://$PROJECT_DIR$/../../../labix.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/libs" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/base" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../..." />
+      <root url="file://$PROJECT_DIR$/../../../qiniupkg.com" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../google.golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../9fans.net" />
+      <root url="file://$PROJECT_DIR$/../../../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../../../platform" />
+      <root url="file://$PROJECT_DIR$/../../../goapi-workers" />
+      <root url="file://$PROJECT_DIR$/../../../.idea" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../client_golang" />
+      <root url="file://$PROJECT_DIR$/../../../k8s.io" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/menteslibres.net" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/mail" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/apis" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/tdd" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/model" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/templates" />
+      <root url="file://$PROJECT_DIR$/../../../honnef.co" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/oauth" />
+      <root url="file://$PROJECT_DIR$/../../../labix.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/libs" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/base" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../..." />
+      <root url="file://$PROJECT_DIR$/../../../qiniupkg.com" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../google.golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../9fans.net" />
+      <root url="file://$PROJECT_DIR$/../../../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../../../platform" />
+      <root url="file://$PROJECT_DIR$/../../../goapi-workers" />
+      <root url="file://$PROJECT_DIR$/../../../.idea" />
+      <root url="file://$PROJECT_DIR$/../../../../../verystar/eticket-api-origin/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../client_golang" />
+      <root url="file://$PROJECT_DIR$/../../../k8s.io" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
