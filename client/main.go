@@ -6,7 +6,7 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	etcdnaming "github.com/coreos/etcd/clientv3/naming"
-	//	"github.com/grpc-ecosystem/go-grpc-prometheus"
+	"github.com/grpc-ecosystem/go-grpc-prometheus"
 	pb "github.com/qgymje/grpc_demo/protos/user"
 	"google.golang.org/grpc"
 )
@@ -29,8 +29,8 @@ func NewUser() *User {
 		"grpc_demo_user1",
 		grpc.WithBalancer(balancer),
 		grpc.WithInsecure(),
-		//grpc.WithUnaryInterceptor(grpc_prometheus.UnaryClientInterceptor),
-		//grpc.WithStreamInterceptor(grpc_prometheus.StreamClientInterceptor),
+		grpc.WithUnaryInterceptor(grpc_prometheus.UnaryClientInterceptor),
+		grpc.WithStreamInterceptor(grpc_prometheus.StreamClientInterceptor),
 	)
 	if err != nil {
 		log.Fatal("user grpc server cant not connect: ", err)

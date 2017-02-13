@@ -1,9 +1,13 @@
 package main
 
 import (
+	"client_golang/prometheus"
 	"flag"
 	"log"
 	"net"
+	"net/http"
+
+	"github.com/grpc-ecosystem/go-grpc-prometheus"
 
 	"github.com/coreos/etcd/clientv3"
 	etcdnaming "github.com/coreos/etcd/clientv3/naming"
@@ -59,12 +63,17 @@ func main() {
 	}
 
 	s := grpc.NewServer(
-	//		grpc.StreamInterceptor(grpc_prometheus.StreamServerInterceptor),
-	//		grpc.UnaryInterceptor(grpc_prometheus.UnaryServerInterceptor),
+		grpc.StreamInterceptor(grpc_prometheus.StreamServerInterceptor),
+		grpc.UnaryInterceptor(grpc_prometheus.UnaryServerInterceptor),
 	)
-
 	pb.RegisterUserServer(s, &UserServer{})
-	//	http.Handle("/metrics", prometheus.Handler())
+
+	grpc_prometheus.Register(s)
+
+	go func() {
+		http.Handle("/metrics", prometheus.Handler())
+		http.ListenAndServe(":4001", nil)
+	}()
 
 	log.Println("server started at prot: ", *port)
 	err = s.Serve(lis)
